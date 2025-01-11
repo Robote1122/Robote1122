@@ -1,4 +1,4 @@
--- made By Robote1122
+--Mady by Robote1122
 task.wait(1)
 local plr =game:GetService("Players").LocalPlayer
 local TweenService = game:GetService("TweenService")
