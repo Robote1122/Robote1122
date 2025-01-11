@@ -335,7 +335,7 @@ function GetTokens()
 			["Spike"]=nil,
 			["TokenLink"]=nil,
 			["Look"]=nil,
-			["Rage"]=nil
+			["Rage"]=nil,
 			["Melody"]=nil,
 		}
 		local smallest={
