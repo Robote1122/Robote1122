@@ -1,6 +1,6 @@
-local Query = require(loadstring(game:HttpGet("https://raw.githubusercontent.com/Robote1122/Robote1122/refs/heads/main/Query"))())
-local Types = require(loadstring(game:HttpGet("https://raw.githubusercontent.com/Robote1122/Robote1122/refs/heads/main/Types.d"))())
-local HttpClient = require(require(loadstring(game:HttpGet("https://raw.githubusercontent.com/Robote1122/Robote1122/refs/heads/main/HttpClient"))()))
+local Query = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robote1122/Robote1122/refs/heads/main/Query"))()
+local Types = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robote1122/Robote1122/refs/heads/main/Types.d"))()
+local HttpClient = require(loadstring(game:HttpGet("https://raw.githubusercontent.com/Robote1122/Robote1122/refs/heads/main/HttpClient"))())
 
 local Table = {}
 Table.__index = Table
