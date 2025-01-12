@@ -1,4 +1,4 @@
-local Table = require(script.Table)
+local Table = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robote1122/Robote1122/refs/heads/main/Table"))()
 
 local Database = {}
 Database.__index = Database
