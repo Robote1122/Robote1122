@@ -1,5 +1,6 @@
-local Database = require(script.Database)
-local Types = require(script.private["Types.d"])
+local Database = require(loadstring(game:HttpGet("https://raw.githubusercontent.com/Robote1122/Robote1122/refs/heads/main/Database.lua"))())
+local Types = require(loadstring(game:HttpGet("https://raw.githubusercontent.com/Robote1122/Robote1122/refs/heads/main/Types.d"))())
+
 
 local Supabase = {}
 Supabase.__index = Supabase
